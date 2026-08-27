@@ -1,20 +1,34 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import DashboardLayout, { type MissionControlNavItem } from "@/components/DashboardLayout";
 import NotFound from "@/pages/NotFound";
+import MissionControl from "@/pages/MissionControl";
+import { BookOpenText, ClipboardList, LayoutDashboard, Network, ShieldCheck } from "lucide-react";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
 function Router() {
-  // make sure to consider if you need authentication for certain routes
+  const navigationItems: MissionControlNavItem[] = [
+    { icon: LayoutDashboard, label: "Mission Control", path: "/" },
+    { icon: ClipboardList, label: "Requirements", path: "/requirements" },
+    { icon: Network, label: "Missions & work", path: "/missions" },
+    { icon: BookOpenText, label: "Context & evidence", path: "/context" },
+    { icon: ShieldCheck, label: "Governance", path: "/governance" },
+  ];
   return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
+    <DashboardLayout navigationItems={navigationItems} productName="DH Mission Control">
+      <Switch>
+        <Route path={"/"}>{() => <MissionControl view="overview" />}</Route>
+        <Route path={"/requirements"}>{() => <MissionControl view="requirements" />}</Route>
+        <Route path={"/missions"}>{() => <MissionControl view="missions" />}</Route>
+        <Route path={"/context"}>{() => <MissionControl view="context" />}</Route>
+        <Route path={"/governance"}>{() => <MissionControl view="governance" />}</Route>
+        <Route path={"/404"} component={NotFound} />
+        <Route component={NotFound} />
+      </Switch>
+    </DashboardLayout>
   );
 }
 
@@ -27,7 +41,7 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
         // switchable
       >
         <TooltipProvider>

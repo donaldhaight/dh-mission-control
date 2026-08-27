@@ -1,0 +1,33 @@
+# Project TODO
+
+- [x] Write the Mission Control pilot instruction manual, scope boundaries, domain glossary, and acceptance criteria.
+- [x] Inspect and adopt the supplied dashboard layout and storage/notification integration patterns where appropriate.
+- [x] Create the synthetic-only operational schema for contexts, missions, work items, artifacts, context packs, requirements, reviews, decisions, risks, evaluations, uploads, notifications, and audit events.
+- [x] Apply the schema migration and verify the database tables, constraints, and synthetic-only action restrictions.
+- [x] Implement protected server procedures for active authorization context, dashboard overview, requirements register, missions/work graph, context packs, artifacts/uploads, reviews/decisions, risks, evaluations, notifications, and audit history.
+- [x] Seed only clearly labeled synthetic pilot records that demonstrate Lead-to-Task-to-evidence workflow states without live financial, regulated, external-communication, or production-access actions.
+- [x] Enforce approved Human Blockchain repository-path allowlisting and source-status/proposal distinctions for context-pack assembly.
+- [x] Implement source-document and artifact upload references with structured provenance metadata while storing file bytes only in managed object storage.
+- [x] Implement human approve, reject, and defer gates that preserve immutable decision/audit records and prevent agent-driven consequential state promotion.
+- [x] Implement structured source-cited draft artifacts and independent review records from approved context packs without automatic consequential actions.
+- [x] Implement designated-owner notifications for decision gates, failed evaluations, missing evidence, SLA risks, and manual-review exceptions.
+- [x] Build an elegant, responsive internal dashboard for stack readiness, active experiments, risks, decision gates, founder next action, and visible active context.
+- [x] Build protected operational views for requirements, missions/work graphs, context packs, artifacts, decisions/reviews, evaluations/audit history, and pilot safeguards.
+- [x] Add loading, empty, error, authorization-denied, and synthetic-only warning states across the application.
+- [x] Write and run Vitest coverage for authorization context, synthetic-only restrictions, approved-path validation, human decision gates, dashboard summaries, and notification eligibility.
+- [x] Verify the rendered dashboard on desktop and mobile, review browser/server logs, and correct visual or functional defects.
+- [x] Update project documentation, review this checklist, and mark all completed work before saving the first delivery checkpoint.
+- [x] Integrate the supplied DashboardLayout into authenticated Mission Control navigation and verify its active-route behavior.
+- [x] Implement SLA-risk detection and manual-review-exception notifications, then verify the complete owner-alert matrix.
+- [x] Add tests that cover notification eligibility for gates, failed evaluations, missing evidence, SLA risks, and manual-review exceptions.
+- [x] Make synthetic-pilot initialization idempotent under concurrent protected dashboard requests and remove duplicate seeded gate/notification records.
+- [x] Add an explicit authorization-denied state for protected Mission Control query and action failures.
+- [x] Add a consistent synthetic-only warning banner across protected Mission Control workflows.
+- [x] Use browser-safe base64 encoding for the synthetic evidence upload flow so files near the 5 MB limit do not risk client call-stack failure.
+- [x] Enforce notification-trigger uniqueness and remove the remaining duplicate synthetic owner alert discovered during visual verification.
+- [x] Link the overview founder-action control directly to the protected Governance decision packet.
+- [x] Handle a concurrent duplicate-notification insert by retrieving the existing trigger record rather than failing the safety scan.
+- [x] Surface explicit authorization-denied state from protected sub-query and protected mutation failures across Mission Control views.
+- [x] Add focused policy/service coverage for decision-owner enforcement, dashboard summary composition, and all safety-scan notification eligibility conditions.
+- [x] Add explicit non-auth error states for requirements, mission detail/context, and governance subqueries rather than falling back to loading or empty content.
+- [x] Add end-to-end server-contract tests for active-context authorization, human decision-gate resolution, and safety-scan notification creation/deduplication behavior.
