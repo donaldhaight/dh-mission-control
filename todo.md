@@ -35,3 +35,9 @@
 - [x] Verify the documentation against the implemented routes, server contracts, schema, test suite, and synthetic-only safeguards.
 - [x] Add a durable documentation traceability matrix mapping each guide to the implemented routes, server contracts, schema domains, safety controls, and validation evidence.
 - [x] Perform the traceability audit and correct any documentation mismatch before saving the documentation checkpoint.
+- [x] Create a self-contained open knowledge bundle in one dedicated folder with an index, manifest, provenance ledger, operating documents, agent-team design, orchestration contracts, and handoff guide.
+- [x] Retrieve and assess Human Blockchain source material on agent teams, authority, orchestration, and approval boundaries; distinguish source-grounded guidance from new proposals.
+- [x] Add an agent-team requirements Q&A register that makes unresolved roles, authority, autonomy, tools, data access, evaluation, escalation, and operating-cost decisions explicit.
+- [x] Validate the open knowledge bundle for completeness, internal links, provenance, and open-decision traceability before checkpointing it.
+- [x] Validate all internal Markdown links and manifest/document cross-references in the open knowledge bundle.
+- [x] Add a source-to-open-question verification checklist proving provenance entries and unresolved agent-team decisions map to the cited Human Blockchain material.

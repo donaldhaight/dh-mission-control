@@ -1,0 +1,65 @@
+{
+  "bundle_id": "dh-mission-control-open-knowledge-bundle",
+  "title": "DH Mission Control — Open Knowledge Bundle",
+  "version": "0.1.0",
+  "status": "founder-working-draft",
+  "sensitivity": "internal",
+  "created": "2026-08-27",
+  "last_reviewed": "2026-08-27",
+  "owner": "Donald Haight",
+  "application": {
+    "name": "DH Mission Control",
+    "type": "authenticated internal full-stack web application",
+    "pilot_mode": "synthetic_only",
+    "repository_path": "/home/ubuntu/dh-manus-operating-system-control-plane"
+  },
+  "upstream_knowledge_source": {
+    "repository": "donaldhaight/human-blockchain-operating-system",
+    "retrieval_anchor": "be1725e",
+    "mode": "read-only source-grounded retrieval"
+  },
+  "authority_order": [
+    "Founder current instruction",
+    "Approved operating decisions and executed agreements",
+    "Current working software and observed results",
+    "Human Blockchain Master Continuity Brief",
+    "Retrieved corpus and historical artifacts",
+    "New proposals in this bundle"
+  ],
+  "source_statuses": [
+    "authoritative_source",
+    "working_model",
+    "historical_context",
+    "new_proposal",
+    "open_requirement",
+    "implemented_verified"
+  ],
+  "entrypoint": "README.md",
+  "required_files": [
+    "README.md",
+    "manifest.json",
+    "00-instruction-manual.md",
+    "01-current-state.md",
+    "02-source-provenance.md",
+    "03-agent-team-operating-model.md",
+    "04-orchestration-contracts.md",
+    "05-requirements-qa-register.md",
+    "06-safety-and-authority.md",
+    "07-implementation-and-operations.md",
+    "08-handoff-and-evaluation.md",
+    "09-source-and-open-question-verification.md",
+    "10-mission-control-pilot-manual-snapshot.md",
+    "validate_bundle.mjs"
+  ],
+  "validation": {
+    "command": "node validate_bundle.mjs",
+    "rules": [
+      "All required files exist and are non-empty",
+      "Manifest parses as JSON",
+      "Internal Markdown links resolve to files within the project",
+      "Each substantive Markdown file declares a source status or source citation section",
+      "Open requirements are not presented as approved configuration",
+      "Source provenance and the agent-team open-question register retain required identifiers"
+    ]
+  }
+}

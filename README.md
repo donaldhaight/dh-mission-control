@@ -29,6 +29,10 @@ The scope manual at [`docs/mission-control-pilot-manual.md`](docs/mission-contro
 
 The complete operational documentation is organized under [`docs/mission-control/`](docs/mission-control/). Start with the [documentation index](docs/mission-control/README.md), then use the user guide, operator runbook, architecture/data reference, safety/change-control guide, and testing/release guide for the relevant role and task.
 
+## Open Knowledge Bundle
+
+The portable, one-folder knowledge package for Mission Control and the proposed agent-team/orchestration model is under [`docs/open-knowledge-bundle/`](docs/open-knowledge-bundle/). Its [index](docs/open-knowledge-bundle/README.md) separates implemented app behavior, Human Blockchain source material, new proposals, and unresolved agent-team requirements.
+
 ## Local Validation
 
 Run the following from the project root after a change:
