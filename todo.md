@@ -31,3 +31,7 @@
 - [x] Add focused policy/service coverage for decision-owner enforcement, dashboard summary composition, and all safety-scan notification eligibility conditions.
 - [x] Add explicit non-auth error states for requirements, mission detail/context, and governance subqueries rather than falling back to loading or empty content.
 - [x] Add end-to-end server-contract tests for active-context authorization, human decision-gate resolution, and safety-scan notification creation/deduplication behavior.
+- [x] Write the DH Mission Control documentation set: application overview, user guide, operator runbook, architecture/data reference, safety model, and validation guide.
+- [x] Verify the documentation against the implemented routes, server contracts, schema, test suite, and synthetic-only safeguards.
+- [x] Add a durable documentation traceability matrix mapping each guide to the implemented routes, server contracts, schema domains, safety controls, and validation evidence.
+- [x] Perform the traceability audit and correct any documentation mismatch before saving the documentation checkpoint.

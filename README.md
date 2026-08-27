@@ -25,6 +25,10 @@ The pilot uses React, Tailwind, TypeScript, tRPC, Manus OAuth, Drizzle, MySQL/Ti
 
 The scope manual at [`docs/mission-control-pilot-manual.md`](docs/mission-control-pilot-manual.md) is the governing design reference. Shared input schemas and synthetic-pilot validation helpers reside in [`shared/missionControl.ts`](shared/missionControl.ts).
 
+## Application Documentation
+
+The complete operational documentation is organized under [`docs/mission-control/`](docs/mission-control/). Start with the [documentation index](docs/mission-control/README.md), then use the user guide, operator runbook, architecture/data reference, safety/change-control guide, and testing/release guide for the relevant role and task.
+
 ## Local Validation
 
 Run the following from the project root after a change:
