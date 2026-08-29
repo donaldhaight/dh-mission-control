@@ -54,8 +54,9 @@
 - [x] Document any missing backup, source-control, commissioning-package, or operating-readiness artifacts before the November target.
 - [x] Create a dedicated private GitHub repository for the DH Mission Control full-stack application and configure it as an additional application remote.
 - [x] Commit and push the current application source, migrations, tests, documentation, open knowledge bundle, audit, and executive briefing to the dedicated GitHub repository.
-- [ ] Verify the GitHub remote head, branch protection baseline, and relationship to the Human Blockchain/DH Manus Operating System repositories.
+- [x] Verify the GitHub remote head, branch protection baseline, and relationship to the Human Blockchain/DH Manus Operating System repositories.
 - [ ] Resolve the documentation whitespace issue preventing the GitHub baseline commit and rerun the export validation.
 - [x] Resolve the documentation whitespace issue preventing the GitHub baseline commit and rerun the export validation.
-- [ ] Add and publish an interim version-control/merge protocol because native private-repository branch protection is unavailable on the current GitHub plan.
+- [x] Add and publish an interim version-control/merge protocol because native private-repository branch protection is unavailable on the current GitHub plan.
 - [ ] Enable an enforceable default-branch protection or ruleset when the GitHub plan supports it, then replace the interim manual protocol with that enforcement evidence.
+- [ ] Create and push an annotated Git tag for the first GitHub-backed DH Mission Control synthetic-pilot baseline.
