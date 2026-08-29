@@ -41,6 +41,8 @@ The private [`donaldhaight/human-blockchain-operating-system`](https://github.co
 
 Git does not store database rows, managed object-storage bytes, live secrets, or external-provider configuration. Those assets require separate inventory, access control, retention, and recovery procedures before production use.
 
+The current [version-control and recovery protocol](docs/governance/version-control-and-recovery-protocol.md) defines the interim branch/review discipline until enforceable private-repository branch protection can be enabled.
+
 ## Local Validation
 
 Run the following from the project root after a change:
