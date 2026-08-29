@@ -59,4 +59,4 @@
 - [x] Resolve the documentation whitespace issue preventing the GitHub baseline commit and rerun the export validation.
 - [x] Add and publish an interim version-control/merge protocol because native private-repository branch protection is unavailable on the current GitHub plan.
 - [ ] Enable an enforceable default-branch protection or ruleset when the GitHub plan supports it, then replace the interim manual protocol with that enforcement evidence.
-- [ ] Create and push an annotated Git tag for the first GitHub-backed DH Mission Control synthetic-pilot baseline.
+- [x] Create and push an annotated Git tag for the first GitHub-backed DH Mission Control synthetic-pilot baseline.
