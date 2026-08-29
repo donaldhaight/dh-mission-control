@@ -49,6 +49,7 @@
     "08-handoff-and-evaluation.md",
     "09-source-and-open-question-verification.md",
     "10-mission-control-pilot-manual-snapshot.md",
+    "11-commissioning-package-index.md",
     "validate_bundle.mjs"
   ],
   "validation": {

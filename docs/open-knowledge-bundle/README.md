@@ -21,6 +21,7 @@ This is an **open knowledge bundle**, meaning that its contents are organized as
 | 9 | [08-handoff-and-evaluation.md](08-handoff-and-evaluation.md) | Provides clean-clone, evaluation, and continuation instructions. |
 | 10 | [09-source-and-open-question-verification.md](09-source-and-open-question-verification.md) | Verifies source claims and open agent-team decisions against their cited Human Blockchain records. |
 | 11 | [10-mission-control-pilot-manual-snapshot.md](10-mission-control-pilot-manual-snapshot.md) | Preserves the governing synthetic-pilot scope, glossary, and acceptance criteria in this folder. |
+| 12 | [11-commissioning-package-index.md](11-commissioning-package-index.md) | Preserves the self-contained commissioning-package summary and points a connected team to the separate reusable package without making this bundle depend on it. |
 
 ## Current truth at a glance
 
@@ -33,10 +34,11 @@ This is an **open knowledge bundle**, meaning that its contents are organized as
 | First-agent list | Present but explicitly marked as an open question and “likely” list. | **Source-grounded but unresolved** |
 | Detailed team topology, routing, tool permissions, budgets, and schedules | Not yet settled. | **Open requirement** |
 | Proposed starter-cell team and orchestration design in this folder | A new, reviewable design proposal. | **New proposal** |
+| One-prompt commissioning package | Implemented as a versioned documentation/control package; runtime activation remains governed. | **Implemented package / proposed activation** |
 
 ## Fast answer: are agent teams already set up?
 
-**No.** The source repository provides a valuable foundation: responsibilities for a cross-functional team, bounded Company Admin agents, a One Prompt Event standard, work-flow expectations, and human stop conditions. It does not provide a final approved runbook for how many teams exist, which models/tools each may use, which agent can call another, cost limits, escalation thresholds, or the exact deployment/runtime configuration. The source open-question register explicitly marks “Which AI agents are needed first?” as **OPEN**. See [03-agent-team-operating-model.md](03-agent-team-operating-model.md) and [05-requirements-qa-register.md](05-requirements-qa-register.md).
+**Not as a live runtime.** The source repository provides a valuable foundation: responsibilities for a cross-functional team, bounded Company Admin agents, a One Prompt Event standard, work-flow expectations, and human stop conditions. The separate reusable commissioning package converts that intent into a source-load, team-profile, mission, handoff, gate, and readiness baseline; its self-contained summary is preserved in [11-commissioning-package-index.md](11-commissioning-package-index.md). It does not claim that the teams are provisioned. The final decisions about which profiles run first, their models/tools, cross-agent calls, cost limits, escalation thresholds, and deployment/runtime configuration remain explicit activation decisions. The source open-question register marks “Which AI agents are needed first?” as **OPEN**. See [03-agent-team-operating-model.md](03-agent-team-operating-model.md) and [05-requirements-qa-register.md](05-requirements-qa-register.md).
 
 ## Bundle contract
 

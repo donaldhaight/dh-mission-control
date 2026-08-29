@@ -41,11 +41,12 @@
 - [x] Validate the open knowledge bundle for completeness, internal links, provenance, and open-decision traceability before checkpointing it.
 - [x] Validate all internal Markdown links and manifest/document cross-references in the open knowledge bundle.
 - [x] Add a source-to-open-question verification checklist proving provenance entries and unresolved agent-team decisions map to the cited Human Blockchain material.
-- [ ] Create a unified one-prompt commissioning package that consolidates the Human Blockchain knowledge library, agent ecosystem intent, authority model, startup sequence, and operating contracts in one dedicated folder.
-- [ ] Consolidate and reconcile existing Human Blockchain commissioning prompts, role models, agent instructions, source registers, and one-prompt assets without presenting proposals as settled policy.
-- [ ] Define the research, MetaGPT-like software, business-development, operations, assurance, and specialist agent team contracts with scoped capabilities, handoffs, tool/data boundaries, human gates, and evaluation criteria.
-- [ ] Create a package readiness checklist, clean-clone rehearsal, and controlled self-improvement protocol for the commissioned agent ecosystem.
-- [ ] Link the commissioning package from the open knowledge bundle and verify its internal references, source provenance, and implementation boundaries.
+- [x] Create a unified one-prompt commissioning package that consolidates the Human Blockchain knowledge library, agent ecosystem intent, authority model, startup sequence, and operating contracts in one dedicated folder.
+- [x] Consolidate and reconcile existing Human Blockchain commissioning prompts, role models, agent instructions, source registers, and one-prompt assets without presenting proposals as settled policy.
+- [x] Define the research, MetaGPT-like software, business-development, operations, assurance, and specialist agent team contracts with scoped capabilities, handoffs, tool/data boundaries, human gates, and evaluation criteria.
+- [x] Create a package readiness checklist, clean-clone rehearsal, and controlled self-improvement protocol for the commissioned agent ecosystem.
+- [x] Link the commissioning package from the open knowledge bundle and verify its internal references, source provenance, and implementation boundaries.
+- [x] Resolve the open knowledge bundle’s self-contained-link validation conflict by adding a portable in-bundle commissioning-package index rather than an external bundle dependency.
 - [x] Complete Step 1 of the executive exploration: provide a source-grounded CEO/CTO explanation of the Human Blockchain Operating System and pause for the next user-directed step.
 - [x] Validate and correct the Step 1 executive briefing’s Human Blockchain source-reference links for portable review.
 - [x] Deliver the completed Step 1 CEO/CTO briefing and pause for the next user-directed step.

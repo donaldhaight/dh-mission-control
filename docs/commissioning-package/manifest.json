@@ -1,0 +1,39 @@
+{
+  "id": "human-blockchain-one-prompt-commissioning-package",
+  "version": "0.1.0-working",
+  "status": "working-commissioning-baseline",
+  "purpose": "Prepare a fresh Human Blockchain agent ecosystem for bounded, source-grounded work with human approval gates.",
+  "source_repository": {
+    "repository": "donaldhaight/human-blockchain-operating-system",
+    "commit": "be1725e",
+    "role": "source-grounded knowledge library"
+  },
+  "implementation_repository": {
+    "repository": "donaldhaight/dh-mission-control",
+    "role": "synthetic-only internal control-plane pilot"
+  },
+  "activation_status": {
+    "agent_runtime": "not activated",
+    "persistent_compute": "not provisioned",
+    "external_action_adapters": "not activated",
+    "live_or_regulated_operations": "prohibited"
+  },
+  "required_files": [
+    "README.md",
+    "00-one-prompt-event.md",
+    "01-authority-and-source-load.md",
+    "02-agent-team-catalog.md",
+    "03-mission-and-artifact-contracts.md",
+    "04-orchestration-contracts.md",
+    "05-permission-and-data-boundaries.md",
+    "06-human-gates-and-escalation.md",
+    "07-readiness-and-improvement.md"
+  ],
+  "open_decisions": [
+    "AGENT-001",
+    "AGENT-002",
+    "AGENT-003",
+    "AGENT-004",
+    "AGENT-005"
+  ]
+}

@@ -33,6 +33,10 @@ The complete operational documentation is organized under [`docs/mission-control
 
 The portable, one-folder knowledge package for Mission Control and the proposed agent-team/orchestration model is under [`docs/open-knowledge-bundle/`](docs/open-knowledge-bundle/). Its [index](docs/open-knowledge-bundle/README.md) separates implemented app behavior, Human Blockchain source material, new proposals, and unresolved agent-team requirements.
 
+## One-Prompt Commissioning Package
+
+The operational wrapper for commissioning a fresh, source-grounded Human Blockchain delivery team is under [`docs/commissioning-package/`](docs/commissioning-package/). It provides the copyable One Prompt Event, source/authority load, purpose-led research/software/business-development/assurance team catalog, mission and handoff contracts, permissions, human gates, and clean-clone/readiness protocol. It does not activate an agent runtime, persistent worker, external connector, or live consequential operation by itself.
+
 ## Source Repositories and Recovery Boundaries
 
 This application is backed up in the private [`donaldhaight/dh-mission-control`](https://github.com/donaldhaight/dh-mission-control) repository. It is the authoritative Git repository for this application’s source code, schema and migrations, tests, application documentation, and release history.
