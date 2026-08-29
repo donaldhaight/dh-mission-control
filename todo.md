@@ -41,3 +41,18 @@
 - [x] Validate the open knowledge bundle for completeness, internal links, provenance, and open-decision traceability before checkpointing it.
 - [x] Validate all internal Markdown links and manifest/document cross-references in the open knowledge bundle.
 - [x] Add a source-to-open-question verification checklist proving provenance entries and unresolved agent-team decisions map to the cited Human Blockchain material.
+- [ ] Create a unified one-prompt commissioning package that consolidates the Human Blockchain knowledge library, agent ecosystem intent, authority model, startup sequence, and operating contracts in one dedicated folder.
+- [ ] Consolidate and reconcile existing Human Blockchain commissioning prompts, role models, agent instructions, source registers, and one-prompt assets without presenting proposals as settled policy.
+- [ ] Define the research, MetaGPT-like software, business-development, operations, assurance, and specialist agent team contracts with scoped capabilities, handoffs, tool/data boundaries, human gates, and evaluation criteria.
+- [ ] Create a package readiness checklist, clean-clone rehearsal, and controlled self-improvement protocol for the commissioned agent ecosystem.
+- [ ] Link the commissioning package from the open knowledge bundle and verify its internal references, source provenance, and implementation boundaries.
+- [x] Complete Step 1 of the executive exploration: provide a source-grounded CEO/CTO explanation of the Human Blockchain Operating System and pause for the next user-directed step.
+- [x] Validate and correct the Step 1 executive briefing’s Human Blockchain source-reference links for portable review.
+- [x] Deliver the completed Step 1 CEO/CTO briefing and pause for the next user-directed step.
+- [ ] Deliver the full Step 1 CEO/CTO explanation to the user with its source-grounded briefing artifact, then pause for the next user-directed step.
+- [x] Audit GitHub repository coverage, branch/tag state, remote synchronization, and application-code backup against the November 1, 2026 operating target.
+- [x] Document any missing backup, source-control, commissioning-package, or operating-readiness artifacts before the November target.
+- [ ] Create a dedicated private GitHub repository for the DH Mission Control full-stack application and configure it as an additional application remote.
+- [ ] Commit and push the current application source, migrations, tests, documentation, open knowledge bundle, audit, and executive briefing to the dedicated GitHub repository.
+- [ ] Verify the GitHub remote head, branch protection baseline, and relationship to the Human Blockchain/DH Manus Operating System repositories.
+- [ ] Resolve the documentation whitespace issue preventing the GitHub baseline commit and rerun the export validation.

@@ -33,6 +33,14 @@ The complete operational documentation is organized under [`docs/mission-control
 
 The portable, one-folder knowledge package for Mission Control and the proposed agent-team/orchestration model is under [`docs/open-knowledge-bundle/`](docs/open-knowledge-bundle/). Its [index](docs/open-knowledge-bundle/README.md) separates implemented app behavior, Human Blockchain source material, new proposals, and unresolved agent-team requirements.
 
+## Source Repositories and Recovery Boundaries
+
+This application is backed up in the private [`donaldhaight/dh-mission-control`](https://github.com/donaldhaight/dh-mission-control) repository. It is the authoritative Git repository for this application’s source code, schema and migrations, tests, application documentation, and release history.
+
+The private [`donaldhaight/human-blockchain-operating-system`](https://github.com/donaldhaight/human-blockchain-operating-system) repository is the source-grounded Human Blockchain knowledge library. The private [`donaldhaight/dh-manus-operating-system`](https://github.com/donaldhaight/dh-manus-operating-system) repository holds reusable DH Manus Operating System architecture, skill, research, and commissioning materials. Changes to one repository do not silently alter the others; cross-repository use must retain source path, commit reference, source status, and a human-reviewed decision record.
+
+Git does not store database rows, managed object-storage bytes, live secrets, or external-provider configuration. Those assets require separate inventory, access control, retention, and recovery procedures before production use.
+
 ## Local Validation
 
 Run the following from the project root after a change:
