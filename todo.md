@@ -61,5 +61,5 @@
 - [x] Add and publish an interim version-control/merge protocol because native private-repository branch protection is unavailable on the current GitHub plan.
 - [ ] Enable an enforceable default-branch protection or ruleset when the GitHub plan supports it, then replace the interim manual protocol with that enforcement evidence.
 - [x] Create and push an annotated Git tag for the first GitHub-backed DH Mission Control synthetic-pilot baseline.
-- [ ] Verify and push any unpreserved Mission Control source, documentation, and checklist changes to the now-public GitHub repository.
-- [ ] Verify the public repository’s remote integrity and whether default-branch protection is now available without changing its settings.
+- [x] Verify and push any unpreserved Mission Control source, documentation, and checklist changes to the now-public GitHub repository.
+- [x] Verify the public repository’s remote integrity and whether default-branch protection is now available without changing its settings.
